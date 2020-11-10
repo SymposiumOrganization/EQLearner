@@ -1,0 +1,12 @@
+setup.py
+src/eq_learner.egg-info/PKG-INFO
+src/eq_learner.egg-info/SOURCES.txt
+src/eq_learner.egg-info/dependency_links.txt
+src/eq_learner.egg-info/requires.txt
+src/eq_learner.egg-info/top_level.txt
+test/test_dataset_generator.py
+test/test_equation_structure.py
+test/test_neural_network.py
+test/test_primitive_polynomials.py
+test/test_tokenization.py
+test/test_utils.py
