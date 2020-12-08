@@ -1,5 +1,5 @@
 # EQLearner
-This repo contains both the source code of the architecture "A Seq2Seq approach to Symbolic Regression" at NIPS 2020 and the dataset generator library for creating symbolic regression datasets.
+This repo contains the dataset generator library for creating symbolic regression datasets presented in the workshop paper "A Seq2Seq approach to Symbolic Regression" at NIPS 2020
 
 Two types of datasets are available:
 * Univariate datasets with combinations of polynomial and composition fuctions, with a fixed set of domain points (Used for our publication).
@@ -14,5 +14,6 @@ We try to reduce to a minimum ambiguities in the dataset, by introducing two key
 Create a python virtual enviroment with ```python -m venv env``` and activate it with ```source env/bin/activate```
 Install the library with ```pip install ./lib/``` or ```pip install -e ./lib/``` if you want the editable mode.
 Eventually, run ```py.test test/``` for checking that everything went well
+Then check the two jupyters in the how tos
 
 
