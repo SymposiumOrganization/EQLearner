@@ -14,6 +14,6 @@ We try to reduce to a minimum ambiguities in the dataset, by introducing two key
 Create a python virtual enviroment with ```python -m venv env``` and activate it with ```source env/bin/activate```
 Install the library with ```pip install ./lib/``` or ```pip install -e ./lib/``` if you want the editable mode.
 Eventually, run ```py.test test/``` for checking that everything went well
-Then check the two jupyters in the how tos
+Then check the two jupyters in the jupyter folder
 
 
