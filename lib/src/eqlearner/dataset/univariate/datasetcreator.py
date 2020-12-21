@@ -208,8 +208,8 @@ class DatasetCreator():
             if cnt == num_equations:
                 cond = False
         if isTraining:
-            self.scaler.fit(x_train) 
-        x_train = self.scaler.transform(x_train)
+            self.scaler.fit(np.array(x_train).T) 
+            x_train = self.scaler.transform(np.array(x_train).T).T
         x_train = torch.Tensor(x_train)
         l = [len(y) for y in y_train]
         q = np.max(l)
